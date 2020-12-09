@@ -17,7 +17,7 @@
     <nav
       class="navbar navbar-light bg-light color-#EA3515 justify-content-between"
     >
-      <a class="navbar-brand" id="highScoreTally">View Highscores</a>
+      <a class="navbar-brand high-score" id="highScoreTally">View Highscores</a>
       <a class="navbar-brand-inline" id="timerTally">Time Left:</a>
     </nav>
     <div class="jumbotron col-sm-6 mx-auto" id="jumbo1">
@@ -53,6 +53,7 @@
         <button type="start" class="start">Begin Quiz</button>
       </div>
     </div>
+    <p id="rightWrong">Text</p>
     <div class="jumbotron col-sm-6 mx-auto" id="jumbo2">
       <div
         class="display-mx-auto btn-block align-items-center"
@@ -187,7 +188,7 @@
         <h3>You've successfully completed the quiz</h3>
         <br />
         <form action="input">
-          <input type="" placeholder="Please input initials." />
+          <input type="" id="initialsInput" placeholder="Please input initials." />
         </form>
         <br />
         <button type="submit" class="submit" id="finalScore">Submit</button>
